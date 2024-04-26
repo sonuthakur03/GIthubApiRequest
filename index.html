@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApiRequest</title> 
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main>
+    <div class="container">
+        <h2>Welcome! Please enter your username:</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" id="usernameInput" placeholder="Enter your username" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="card">
+     <div class="profile">
+        <div id="images"> 
+            <img id="image" src="https://images.unsplash.com/photo-1711725104835-91f1ecc9bd96?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img> 
+            </div>
+        <div class="btn1"> 
+          <div id="follower"> 
+            <button id="followers" class="btn">__</button> 
+            <p class="para">Followers</p> 
+            </div>
+            <div id="followings"> 
+            <button id="following" class="btn">__</button>    
+            <p class="para">Following</p> 
+            </div>
+        </div>
+     </div>      
+        <div class="desc">
+            <div class="heading"> 
+                <h2 id="name">Username</h2> 
+                <p>dolore viverra curae ancillae fringilla aliquid postea elit honestatis luctus qualisque discere dissentiunt aliquam arcu ea eripuit</p> 
+            </div>
+            <div class="btn2"> 
+                <a href="#">Read more</a> 
+            </div>
+        </div>     
+    </div>
+</main>
+    <script src="js/index.js"></script>
+</body>
+</html>
